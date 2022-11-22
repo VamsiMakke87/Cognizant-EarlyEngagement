@@ -30,7 +30,7 @@
             <tr>
                 <td><label for="totalprice">Total Price in Rs.</label></td>
                 <td>
-                    <output for="totalprice" id="totalprice" requried>
+                    <output id="totalprice"  for="price qty"> </output>
                 </td>
             </tr>
             <tr>
@@ -44,7 +44,7 @@
         function calculateTotalPrice(){
             var price=document.getElementById("price").value;
             var qty=document.getElementById("qty").value;
-            document.getElementById("totalprice").innerHTML=(parseInt(price)*parseInt(qty));
+            document.getElementById("totalprice").innerHTML=((price)*(qty));
             return false;
         }
     </script>

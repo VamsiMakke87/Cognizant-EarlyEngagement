@@ -1,24 +1,35 @@
-const arr=[]; 
+var arr=[];
+
 function addFeedback(){
-    //Fill the required logic
-    arr.push(document.getElementById("feedback").value);
-    document.getElementById("feedback").value="";
 
-    var display=
-        '<h2>Feedback Details</h2><h4>Successfully Added Feedback Details!</h4>';
+    //Fill the required logic  
 
-    document.getElementById("result").innerHTML=display;
-    
+    var feedback=document.getElementById('feedback').value;
+
+    arr.push(feedback);
+
+    document.getElementById('feedback').value="";
+
+    document.getElementById("result").innerHTML="<h2>Feedback Details</h2><h3>Successfully Added Feedback Details!<h3>";
 
 }
-   
+
+
+
 function displayFeedback(){
-       //Fill the required logic
-       
-       var output='<h2>Feedback Details</h2>';
 
-       for(var i=0;i<arr.length;i++)
-        output+='Feedback'+(i+1)+'<br>'+arr[i]+'<br>';
+    //Fill the required logic
 
-       document.getElementById("result").innerHTML=output;
+    var txt="";
+
+    var count=1;
+
+    for (var i =1; i < arr.length+1; i++) {
+
+        txt+="Feedback "+i+"<br>"+arr[i-1]+"<br>";
+
+    }
+
+    document.getElementById('result').innerHTML="<h2>Feedback Details<h2>"+txt;
+
 }
