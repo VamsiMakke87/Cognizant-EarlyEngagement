@@ -11,3 +11,4 @@
 - [Word Play](https://github.com/VamsiMakke87/Cognizant-EarlyEngagement/tree/main/UserInterfaceDesign/JS/WordPlay)
 - [Find Unique Characters](https://github.com/VamsiMakke87/Cognizant-EarlyEngagement/tree/main/UserInterfaceDesign/JS/Find%20Unique%20Characters)
 - [Placing Order For Cake](https://github.com/VamsiMakke87/Cognizant-EarlyEngagement/tree/main/UserInterfaceDesign/JS/Placing%20Order%20For%20Cake)
+- [Validate Email](https://github.com/VamsiMakke87/Cognizant-EarlyEngagement/tree/main/UserInterfaceDesign/JS/Validate%20Email)
