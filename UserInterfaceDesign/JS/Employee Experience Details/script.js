@@ -37,6 +37,3 @@ function displayEmployee(name, designation, year_of_experience){
 
 
 }
-
-
-displayEmployee("Jerold","Manager",15);
